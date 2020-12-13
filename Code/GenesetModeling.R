@@ -1,8 +1,8 @@
 ###Use gene set modeling.
 library(pROC)
 library(caret)
-load('/Data/OtherData/genesetname.RData')
-geneinfo <-read.table('/Data/OtherData/asd_sce_hvg_12036\ geneinfo.txt',header = TRUE)
+load('/Data/OtherData/GeneSetName.RData')
+geneinfo <-read.table('/Data/OtherData/Asd_sce_hvg_12036\ geneinfo.txt',header = TRUE)
 name <- list('AST-FB','AST-PP','Endothelial','IN-PV','IN-SST','IN-SV2C','IN-VIP','L2_3','L4','L5_6'
              ,'L5_6-CC','Microglia','Neu-mat','Neu-NRGN-I','Neu-NRGN-II','Oligodendrocytes','OPC')
 performance<-data.frame()

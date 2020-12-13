@@ -4,10 +4,10 @@ library(parallelMap)
 
 
 ###Load data
-traindata<-read.table('/Data/MultiLabelData/traindata.txt',sep=',')
-trainlabel<-read.table('/Data/MultiLabelData/trainlabel.txt',sep=',')
-testdata<-read.table('/Data/MultiLabelData/testdata.txt',sep=',')
-testlabel<-read.table('/Data/MultiLabelData/testlabel.txt',sep=',')
+traindata<-read.table('/Data/MultiLabelData/TrainData.txt',sep=',')
+trainlabel<-read.table('/Data/MultiLabelData/TrainLabel.txt',sep=',')
+testdata<-read.table('/Data/MultiLabelData/TestData.txt',sep=',')
+testlabel<-read.table('/Data/MultiLabelData/TestLabel.txt',sep=',')
 
 
 ###Training model.
