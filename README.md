@@ -3,6 +3,9 @@ Cell-type-specific predictive model for prioritizing disease-associated genes an
 
 The codes were used for the analyses of single-nucleus gene expression data of ASD and controls for identifying cell type-specific ASD-associated genes and gene sets. The analyzed single-nucleus gene expression data was deposited at: https://doi.org/10.5281/zenodo.4319554
 
+The codes correspond to the following paper, where further details can be found:
+Guan, J., Wang, Y., Lin, Y. et al. Cell Type-Specific Predictive Models Perform Prioritization of Genes and Gene Sets Associated With Autism, Front. Genet., 11: 1778.  https://doi.org/10.3389/fgene.2020.628539
+
 ## About computation time and memory usage
 
 The codes except MultiLabelModeling are run independently for each cell type. 
